@@ -1,4 +1,4 @@
-# ShareXin
+# ShareRin
 
 #### Requirements
 ruby  
