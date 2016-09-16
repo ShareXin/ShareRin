@@ -14,6 +14,10 @@ PyGtk
 4. Replace locations in shell scripts with YOUR locations
 
 ### Changelog
+#### [0.1.2] - 2016-09-15
+#### Added
+- Gnome-screenshot commands in scripts
+
 #### [0.0.5] - 2016-09-15
 #### Added
 - Changelog
