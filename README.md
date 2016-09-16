@@ -2,8 +2,7 @@
 
 #### Requirements
 ruby  
-xdotool  
-gnome-screenshot
+gnome-screenshot  
 [Twitter](https://github.com/sixohsix/twitter)  
 PyGtk  
 
