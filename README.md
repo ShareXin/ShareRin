@@ -17,6 +17,10 @@ Ruby gtk3
 5. Done.
 
 ### Changelog
+#### [0.1.8] - 2016-10-08
+#### Added
+- Configuration for `Picture.rb`
+
 #### [0.1.7] - 2016-10-08
 #### Added
 - Better configuration, similar to ShareJin
