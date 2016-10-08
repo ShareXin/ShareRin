@@ -2,6 +2,7 @@
 
 require 'gtk3'
 require 'twitter'
+require 'inifile'
 
 class RubyApp < Gtk::Window
 
@@ -57,12 +58,15 @@ class RubyApp < Gtk::Window
     end
     def twitter(tweet)
         # Twitter configuration
-        client = Twitter::REST::Client.new do |config|
-          config.consumer_key        = ''
-          config.consumer_secret     = ''
-          config.access_token        = ''
-         config.access_token_secret = ''
-       end
+        configFile = IniFile.load(Dir.home + '/.config/ShareXin/config.ini')
+        twitterConfig = configFile["Twitter"]
+        config = {
+          consumer_key: twitterConfig["api"],
+          consumer_secret: twitterConfig["api_secret"],
+          access_token: twitterConfig["access"],
+          access_token_secret: twitterConfig["access_secret"],
+        }
+        client = Twitter::REST::Client.new(config)
         # Tweet
         client.update(tweet.buffer.text)
     end
