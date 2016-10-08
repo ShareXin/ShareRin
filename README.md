@@ -1,4 +1,7 @@
-# ShareRin
+# ShareRin  
+
+On Linux
+![Linux](https://raw.githubusercontent.com/ShareXin/ShareRin/master/twitter-2016-10-08-16_11_163_PM.png)
 
 #### Requirements
 ruby  
