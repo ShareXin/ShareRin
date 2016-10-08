@@ -4,7 +4,7 @@
 ruby  
 gnome-screenshot  
 [Twitter](https://github.com/sixohsix/twitter)  
-PyGtk  
+Ruby gtk3  
 
 
 #### How to use
